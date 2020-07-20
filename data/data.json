@@ -1,10 +1,67 @@
 {
-    "speakers": [{
-      "title" : "Art in Full Bloom",
-      "name": "Lorenzo Garcia",
-      "shortname" : "Lorenzo_Garcia",
-      "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
-      "description": "<p>Lorenzo was born in Mexico, but grew up in Southern California after his mother immigrated to Los Angeles when he was a year old. His mother worked as a seamstress in the Fashion District and brought home scrap materials for Lorenzo to create his early mixed media art. From that point on, Lorenzo became hooked on creating art from scrap metals, fabrics, wood, canvas, and many others. During his junior year at Bischon Art School in Los Angeles, he perfected his own proprietary method of painting on canvas with ceramic glaze, which he will demonstrate on Monday in his session, 'Art in Full Bloom'.</p><p>Lorenzo paints with an extraordinary amount of color, and prefers to create art centered around nature, animals, and science. Now in his senior year at Bischon, Lorenzo has been creating mixed media totem poles made from old telephone poles, and other recycled materials, and is already planning his next new technique that will likely inspire a trend for years to come.</p>",
-      "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
-    }]
+    "albums": [{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "Revolver",
+      "summary" : "Revolver is the seventh studio album by English rock band The Beatles. It was first released on 5 August 1966 by Parlophone in the United Kingdom and on 8 August in the United States by Capitol Records. Produced by George Martin, it was recorded after a three-month break from professional commitments at the start of 1966, during a period when London was considered the era's cultural capital. Much of the album's songs reflect the influence of psychedelic drugs such as LSD, and the increasing sophistication of the band's lyrics to address themes including death and transcendence from material concerns.",
+      "artwork": ["Thebeatlesrevolver.jpg."],
+      "tracklist": "1. Taxman<br>2. Eleanor Rigby<br>3. I'm Only Sleeping<br>4. Love You To<br>5. Here, There and Everywhere<br>6. Yellow Submarine<br>7. She Said She Said<br>8. Good Day Sunshine<br>9. And Your Bird Can Sing<br>10. For No One<br>11. Doctor Robert<br>12. I Want to Tell You<br>13. Got to Get You into My Life<br>14. Tomorrow Never Knows",
+      "albumAM": "https://music.apple.com/us/album/revolver/1441164670",
+      "albumSM": "https://open.spotify.com/album/3PRoXYsngSwjEQWR5PsHWR?si=h_TAp65hQKy7XPEvAvL0Iw"
+      },{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "Sgt. Pepper's Lonely Hearts Club Band",
+      "summary" : "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by English rock band The Beatles. It was first released on 26 May 1967 in the United Kingdom by Parlophone and on 2 June in the United States by Capitol Records. After the band permanently retired from touring in August 1966, member Paul McCartney suggested an idea for a song involving an Edwardian military band that ultimately formed the impetus of the Sgt. Pepper concept. After recording sessions began in November, he later suggested the band release an entire album representing a performance by the fictional Sgt. Pepper band. This would give the Beatles freedom to experiment musically, and as a result, they furthered the technological progression they had made with their previous album Revolver (1966).",
+      "artwork": ["Thebeatlessgtpepperslonelyheartsclubband.jpg."],
+      "tracklist": "1. Sgt. Pepper's Lonely Hearts Club Band<br>2. With a Little Help from My Friends<br>3. Lucy in the Sky with Diamonds<br>4. Getting Better<br>5. Fixing a Hole<br>6. She's Leaving Home<br>7. Being for the Benefit of Mr. Kite!<br>8. Within You Without You<br>9. When I'm Sixty-Four<br>10. Lovely Rita<br>11. Good Morning Good Morning<br>12. Sgt. Pepper's Lonely Hearts Club Band (Reprise)<br>13. A Day in the Life",
+      "albumAM": "https://music.apple.com/us/album/sgt-peppers-lonely-hearts-club-band/1441164604",
+      "albumSM": "https://open.spotify.com/album/6QaVfG1pHYl1z15ZxkvVDW?si=EueHx9iuS9qbuwaWs-SITA"
+    },{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "Magical Mystery Tour",
+      "summary" : "Though wedged between the comparatively giant Sgt. Pepper’s and 1968’s White Album, Magical Mystery Tour nevertheless played a part in The Beatles' story, and put a cap on a year in which the band made yet more music nobody was totally prepared for them to make. The album was released as a companion to a meandering, band-directed movie, and its first half is probably one of the lowest-stakes sides in the band’s catalog—a relief, in a way, from how high-stakes their music had become. Still, this was The Beatles in 1967—momentum was strong. What had started out as a string of acid playground rhymes turned into Lennon’s angriest song this side of 1970 (“I Am the Walrus”), while McCartney’s simple sentimentality had taken on a quality that felt stoic, almost abstract (“The Fool on the Hill”). There was a rare instrumental (“Flying”), a foggy Harrison drone (“Blue Jay Way”), and an invocation of the past by McCartney that blurred lines between sweet and eerie (“Your Mother Should Know”).",
+      "artwork": ["Thebeatlesmagicalmysterytour.jpg."],
+      "tracklist": "1. Magical Mystery Tour<br>2. Your Mother Should Know<br>3. I Am the Walrus<br>4. The Fool on the Hill<br>5. Flying<br>6. Blue Jay Way",
+      "albumAM": "https://music.apple.com/us/album/magical-mystery-tour/1441163490",
+      "albumSM": "https://open.spotify.com/album/2BtE7qm1qzM80p9vLSiXkj?si=jLAoXrx0RT6s_iEgG5_V1w"
+    },{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "The Beatles",
+      "summary" : "The Beatles (commonly known as The White Album) is the eponymous ninth studio album by English rock band The Beatles. It was first released as a double album on 22 November 1968 in the United Kingdom by Apple Records and on 25 November 1968 in the United States by Capitol Records. Its plain white sleeve has no graphics or text other than the band's name embossed on it, which was intended as a direct contrast to the vivid cover artwork of the band's previous album Sgt. Pepper's Lonely Hearts Club Band (1967). The album's songs range in style from British blues and ska to tracks influenced by Chuck Berry and by Karlheinz Stockhausen.",
+      "artwork": ["The-beatles-the-white-album.png"],
+      "tracklist": "1. Back in the U.S.S.R.<br>2. Dear Prudence<br>3. Glass Onion<br>4. Ob-La-Di, Ob-La-Da<br>5. Wild Honey Pie<br>6. The Continuing Story of Bungalow Bill<br>7. While My Guitar Gently Weeps<br>8. Happiness Is a Warm Gun<br>9. Martha My Dear<br>10. I'm So Tired<br>11. Blackbird<br>12. Piggies<br>13. Rocky Raccoon<br>14. Don't Pass My By<br>15. Why Don't We Do It In the Road<br>16. I Will<br>17. Julia<br>1. Birthday<br>2. Yer Blues<br>3. Mother Nature's Song<br>4. Everybody's Got Something to Hide Except Me and My Monkey<br>",
+      "albumAM": "https://music.apple.com/us/album/the-beatles-the-white-album/1441133180",
+      "albumSM": "https://open.spotify.com/album/1klALx0u4AavZNEvC4LrTL?si=Z4l6zQNJQvWUdPi5tg5AWA"
+    },{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "Yellow Submarine",
+      "summary" : "Yellow Submarine is the eleventh album by The Beatles. It was released in the United States on 13 January 1969 and on 17 January 1969 in the United Kingdom. It is a soundtrack to the Yellow Submarine film, which featured the Beatles as animated characters. Side A contains two previously released songs and four new ones, while Side B consists of orchestral pieces from the film.",
+      "artwork": ["TheBeatles-YellowSubmarinealbumcover.jpg"],
+      "tracklist": "1. name of song here<br>2. name of song here<br>3. name of song here<br>4. name of song here<br>5. name of song here<br>6. name of song here<br>7. name of song here<br>8. name of song here<br>9. name of song here<br>10. name of song here<br>11. name of song here",
+      "albumAM": "https://music.apple.com/us/album/yellow-submarine/1441164525",
+      "albumSM": "https://open.spotify.com/album/1gKZ5A1ndFqbcrWtW85cCy?si=iW008JcjTyuuOWvQ0-nd1Q"
+    },{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "Abbey Road",
+      "summary" : "Abbey Road is the eleventh studio album by English rock band The Beatles. It was first released on 26 September 1969 in the United Kingdom by Apple Records and on 1 October 1969 in the United States by Capitol Records. The recording sessions for the album were the last in which all four Beatles participated. Although Let It Be was the final album that the band completed before the band's dissolution in April 1970, most of the album had been recorded prior to the Abbey Road sessions began.",
+      "artwork": ["Thebeatlesabbeyroad.jpg"],
+      "tracklist": "1. name of song here<br>2. name of song here<br>3. name of song here<br>4. name of song here<br>5. name of song here<br>6. name of song here<br>7. name of song here<br>8. name of song here<br>9. name of song here<br>10. name of song here<br>11. name of song here",
+      "albumAM": "https://music.apple.com/us/album/abbey-road-remastered/1441164426",
+      "albumSM": "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN?si=J4qtnKxWTOStVYKuDWwFTw"
+    },{
+      "name": "The Beatles",
+      "shortname": "thebeatles",
+      "albumname" : "Let It Be",
+      "summary" : "Let It Be is the twelfth and final studio album by English rock band The Beatles, released on 8 May 1970 by Apple Records. Issued almost a month after the band's breakup, it was originally conceived as Get Back, a return to their earlier, less complicated approach to music. Rehearsals began at Twickenham Film Studios in London in January 1969 as part of a planned documentary film showing the Beatles preparing to return to live performance. A project initiated by Paul McCartney, the rehearsals were marked by ill feeling, leading to George Harrison's temporary departure from the band. As a condition of his return, the Beatles reconvened at their own Apple studio, where they completed the recordings with the help of guest musician Billy Preston.",
+      "artwork": ["Thebeatlesletitbe.jpg"],
+      "tracklist": "1. name of song here<br>2. name of song here<br>3. name of song here<br>4. name of song here<br>5. name of song here<br>6. name of song here<br>7. name of song here<br>8. name of song here<br>9. name of song here<br>10. name of song here<br>11. name of song here",
+      "albumAM": "https://music.apple.com/us/album/let-it-be/1441164495",
+      "albumSM": "https://open.spotify.com/album/0jTGHV5xqHPvEcwL8f6YU5?si=ulun3RVhSoGZa9hiJr5jag"
+    }
+  ]
 }
