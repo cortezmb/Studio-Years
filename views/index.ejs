@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <%- include('template/head.ejs') %> 
 </head>
 <body>
-    this is the main page
+    <!-- Start of NavBar -->
+    <div class="container-fluid h-100 w-100">
+        <div class="row">
+            <%- include('content/navbar.ejs') %> 
+        </div>
+        <!-- End of NavBar -->
+
+        <!-- Start of Main Content -->
+        <div class="row">
+            <h1 class="font-face">The BEATLES</h1>
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Start of Footer -->
+        <div class="row">
+
+        </div>
+    </div>
+
+    
 </body>
 </html>
