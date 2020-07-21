@@ -14,11 +14,11 @@ router.get('/albums', (req, res) => {
         pagePhotos = pagePhotos.concat(albumsObj.artwork);
     })
 
-    res.render('albums' {
+    res.render('albums', {
 
         artwork: pagePhotos,
         albums: pageAlbums,
-        pageTitle: "The BEATLES: Studio Years",
+        pageTitle: "The BEATLES Studio Years - Albums",
         maxList: pageAlbums
     })
 })
@@ -34,6 +34,15 @@ router.get('/albums/:albumsid', (req, res) => {
             photos = photos.concat(albumsObj.artwork);
             albums.push(albumsObj);
         }
+    })
+
+    res.render('albums', {
+
+        artwork: photos,
+        albums: albums,
+        pageTitle: `The BEATLES Studio Years - ${albums[0].albumname}`,
+        pageID: "albumDetail",
+        maxList: albumsArray
     })
 })
 
