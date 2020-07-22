@@ -2,19 +2,20 @@ const express = require('express');
 
 const app = express();
 
-const PORT = 3000;
+app.use(express.static('public'));// link to public folder 
 
-app.set('view engine', 'ejs'); //references to directory named views
-
+// link to views folder
+app.set('view engine', 'ejs'); 
 app.set('views', 'views');
-
-app.use(express.static('public'));
 
 app.use(require('./routes/index'));//reference of where we placed the index
 
-app.use(require('./routes/albums'));//reference of where we placed the speakers
+app.use(require('./routes/albums'));//reference of where we placed the albums
 
-app.listen(PORT, () => {
+app.use(require('./routes/feedback'));//reference of where we placed the feedback
 
-    console.log(`Listening on port ${PORT}`);
+app.use(require('./routes/api'));//reference of where we placed the api
+
+app.listen(3000, () => {
+    console.log(`Listening on port 3000`);
 })

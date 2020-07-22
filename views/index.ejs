@@ -1,45 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <%- include('template/head.ejs') %> 
+    <%- include('partials/template/head.ejs')  %> 
 </head>
+
 <body>
-    <!-- Start of NavBar -->
-    <div class="container-fluid h-100 w-100">
-        <div class="row">
-            <div class="col-sm col-md col-lg d-flex bg-warning">
-                <%- include('content/navbar.ejs') %> 
-            </div>
-        </div>
-        <!-- End of NavBar -->
 
-        <!-- Start of Main Content -->
-        <div class="row">
-            <div class="col-sm col-md col-lg d-flex justify-content-center w-100 h-100 bg-success">
-                <h1 class="font-face">The BEATLES</h1>
-            <h2 class="font-face">Studio Years</h2>
-            <h2 class="font-face">1966-1970</h2>
-            <p>In 1966, freed from the burden of touring, the Beatles embraced an increasingly experimental approach. Here are a collection of my favorite albums from the last 4 years of what some consider the greatest band of all time.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm col-md col-lg d-flex justify-content-center w-100">
-                <%= include('partials/content/artwork.ejs') %> 
-            </div>
-        </div>
-        <!-- End of Main Content -->
+    <%- include('partials/content/header.ejs')  %> 
 
-        <!-- Start of Footer -->
+    <div class="container">
         <div class="row">
-            <div class="col-sm col-md col-lg d-flex justify-content-center w-100 h-100 bg-primary">
-                Footer
-            </div>
+            <div class="col-sm-8">
+                <div class="maincontent">
+                    <article class="article">
+                        <h1 class="article-title">Studio Years</h1>
+                        <p>Freed from the burden of touring, the Beatles embraced an increasingly experimental approach. The albums featured sophisticated songwriting, studio experimentation, and a greatly expanded repertoire of musical styles, ranging from innovative classical string arrangements to psychedelic rock.</p>
+                    </article><!-- article -->
+                    <div class="row">
+                        <%- include('partials/content/artwork.ejs')  %>
+                    </div><!-- secondary -->
+                    <article class="article">
+                </div>
+            </div><!-- primary -->            
         </div>
-    </div>
-
-    
+    </div><!-- container -->
+    <%- include('partials/template/jsdefaults.ejs')  %> 
 </body>
+
 </html>
+
+
