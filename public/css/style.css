@@ -28,6 +28,10 @@ a {
   color: black;
 }
 
+.grad {
+  background-image: linear-gradient(black, gray);
+}
+
 /**  Header Navigation **/
 
 header {
@@ -37,7 +41,7 @@ header {
 header .jumbotron {
   height: 40vh;
   margin-bottom: 0;
-  background: url(../images/header/abbeyroadheader.png) no-repeat 100% 5%; 
+  background: url(../images/header/Abbey_Road.png) no-repeat 100% 5%; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

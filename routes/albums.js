@@ -26,32 +26,32 @@ router.get('/albums', (req, res) => {
     })
 })
 
-router.get('/albums/:albumsid', (req, res) => {
-    let albumsArray = dataFile.albums;
-    let photos = [];
-    let albums = [];
-    let titles = [];
+// router.get('/albums/:albumsid', (req, res) => {
+//     let albumsArray = dataFile.albums;
+//     let photos = [];
+//     let albums = [];
+//     let titles = [];
 
-    albumsArray.forEach((albumsObj) => {
-        if(albumsObj.shortname == req.params.albumsid) {
+//     albumsArray.forEach((albumsObj) => {
+//         if(albumsObj.shortname == req.params.albumsid) {
 
-            photos = photos.concat(albumsObj.artwork);
-            albums.push(albumsObj);
+//             photos = photos.concat(albumsObj.artwork);
+//             albums.push(albumsObj);
 
-            titles = titles.concat(albumsObj.albumname);
-            titles.push(albumsObj);
-        }
-    })
+//             titles = titles.concat(albumsObj.albumname);
+//             titles.push(albumsObj);
+//         }
+//     })
 
-    res.render('albums', {
+//     res.render('albums', {
 
-        artwork: photos,
-        albums: albums,
-        pageTitle: `The BEATLES Studio Years - ${albums[0].name}`,
-        pageID: "albumsDetail",
-        maxList: albumsArray,
-        titles: titles
-    })
-})
+//         artwork: photos,
+//         albums: albums,
+//         pageTitle: `The BEATLES Studio Years - ${albums[0].name}`,
+//         pageID: "albumsDetail",
+//         maxList: albumsArray,
+//         titles: titles
+//     })
+// })
 
 module.exports = router;
