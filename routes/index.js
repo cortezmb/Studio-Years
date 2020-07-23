@@ -20,7 +20,6 @@ router.get('/', (req, res) => {
 
     res.render('index', {
 
-        photos: pagePhotos,
         artwork: pagePhotos,
         pageID: 'home',
         maxList: pageAlbums
