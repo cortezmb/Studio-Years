@@ -1,6 +1,10 @@
+require("dotenv").config();
+
 const express = require('express');
 
 const app = express();
+
+const PORT = process.env.PORT;
 
 app.use(express.static('public'));// link to public folder 
 
@@ -16,6 +20,6 @@ app.use(require('./routes/feedback'));//reference of where we placed the feedbac
 
 app.use(require('./routes/api'));//reference of where we placed the api
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log(`Listening on port 3000`);
 })
