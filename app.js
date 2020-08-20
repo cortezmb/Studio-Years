@@ -4,7 +4,9 @@ const express = require('express');
 
 const app = express();
 
-const PORT = process.env.PORT;
+const PORT = 3000;
+
+// const PORT = process.env.PORT;
 
 app.use(express.static('public'));// link to public folder 
 
@@ -20,6 +22,6 @@ app.use(require('./routes/feedback'));//reference of where we placed the feedbac
 
 app.use(require('./routes/api'));//reference of where we placed the api
 
-app.listen(PORT, () => {
+app.listen(3000, () => {
     console.log(`Listening on port 3000`);
 })

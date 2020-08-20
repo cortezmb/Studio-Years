@@ -26,6 +26,7 @@ li {
 
 .a {
   color: white;
+  text-align: justify;
 }
 
 .grad {
@@ -38,10 +39,25 @@ header {
   font-size: 2rem;
 }
 
+.container-fluid {
+
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0;
+}
+
+.container-fluid .jumbotron {
+
+  border-radius: 0;
+}
+
 header .jumbotron {
-  height: 40vh;
+  height: 57vh;
   margin-bottom: 0;
-  background: url(../images/header/Abbey_Road.png) no-repeat 100% 5%; 
+  background: url(../images/header/Abbey_Road.png) 50%;
+  /* background: url(../images/header/Abbey_Road.png) no-repeat 50% 5%;  */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,6 +103,8 @@ header .navbar-inverse .navbar-nav>li>a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   line-height: 160%;
+  text-align: justify;
+  padding: 3rem;
 }
 
 .sidebar {
