@@ -107,6 +107,10 @@ header .navbar-inverse .navbar-nav>li>a {
   padding: 3rem;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
 .sidebar {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
@@ -137,7 +141,7 @@ header .navbar-inverse .navbar-nav>li>a {
 }
 
 #speakerList .speakerslist-img {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .speakerslist-title {
